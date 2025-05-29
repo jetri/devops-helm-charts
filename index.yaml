@@ -3,6 +3,16 @@ entries:
   spring-boot-rest-api:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-05-29T04:54:46.882032849Z"
+    description: Spring boot REST API helm chart
+    digest: d83dd6a2a77fa68b01cb72388abe021104475f8121d333f140581d35afed9c9a
+    name: spring-boot-rest-api
+    type: application
+    urls:
+    - https://github.com/jetri/devops-helm-charts/releases/download/spring-boot-rest-api-0.5.0/spring-boot-rest-api-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-05-29T04:32:13.360243804Z"
     description: Spring boot REST API helm chart
     digest: 629847b14dc22ce7e045ff3e5bcf768ca85ee4a7490aee910e53270a5e514b5c
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/jetri/devops-helm-charts/releases/download/spring-boot-rest-api-0.1.0/spring-boot-rest-api-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-29T04:32:13.360258021Z"
+generated: "2025-05-29T04:54:46.882056894Z"
