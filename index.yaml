@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  sealed-secret:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-05-29T09:02:38.400889597Z"
+    description: A Helm chart for sealed secret
+    digest: 6cd26c478b44b82db5fec40200d2f58aa149c9bb3278eaabcf728a5ded721cb2
+    name: sealed-secret
+    type: application
+    urls:
+    - https://github.com/jetri/devops-helm-charts/releases/download/sealed-secret-0.1.0/sealed-secret-0.1.0.tgz
+    version: 0.1.0
   spring-boot-rest-api:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -51,4 +62,4 @@ entries:
     urls:
     - https://github.com/jetri/devops-helm-charts/releases/download/spring-boot-rest-api-0.1.0/spring-boot-rest-api-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-29T04:54:46.882056894Z"
+generated: "2025-05-29T09:02:38.400903795Z"
