@@ -69,7 +69,6 @@ tolerations: []
 affinity: {}
 
 # environment variable
-extraEnv: {}
 
 containerSecurityContext:
   runAsNonRoot: true
@@ -80,8 +79,6 @@ containerSecurityContext:
   capabilities:
     drop:
       - ALL
-
-extraVolumes: {}
 
 size: "small"
 
