@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: {{ include "spring-boot-rest-api.fullname" . }}
   labels:
+    testlabel: J3
     app.kubernetes.io/name: {{ include "spring-boot-rest-api.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     {{- with .Values.deploymentLabels }}
